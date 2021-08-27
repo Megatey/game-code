@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.scores {
+    height: 30px;
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    background-color: red;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.box-container {
+    width: 100%;
+    display: flex;
+    padding: 5px;
+    justify-content: space-around;
+}
+
+.one {
+    width: 20%;
+    height: 90px;
+    background-color: aqua;
+    position: relative;
+    display: block;
+    animation-name: one;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes one {
+    from {top:0px}
+    to {top:100vh}
+}
+
+.two {
+    width: 20%;
+    height: 90px;
+    background-color: aqua;
+    position: relative;
+    display: none;
+    animation-name: two;
+    animation-duration:2s;
+    animation-iteration-count: infinite;   
+}
+
+@keyframes two {
+    from {top:0px}
+    to {top:100vh}
+}
+
+.three {
+    width: 20%;
+    height: 90px;
+    background-color: aqua;
+    position: relative;
+    display: none;
+    animation-name: three;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes three {
+    from {top:0px}
+    to {top:100vh}
+}
